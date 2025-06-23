@@ -19,7 +19,11 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: Just like saving your game progress so you never lose it, even if you make a mistake
 - **Git command**: `git init HelloCoderDojo`
-- **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop create repository screen*
+- [**Documentation Link**](https://docs.github.com/en/desktop/overview/creating-your-first-repository-using-github-desktop)
+- **📸 SCREENSHOT**: 
+![image](https://github.com/user-attachments/assets/521a507d-04ee-46b5-a752-bcbf01fb1305)
+![image](https://github.com/user-attachments/assets/b69c9885-9f42-4585-88a4-8700bf5c7f48)
+
 
 ### 2. Open Repository Folder ✅
 - **What to do**: Find and open the folder you just created for your repository
@@ -27,7 +31,7 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: We need to see where our code will live
 - **Git command**: `cd HelloCoderDojo`
-- **📸 SCREENSHOT**: *Add screenshot of the empty repository folder*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/b2d886ea-364b-42c8-b6da-d20afbc909d1)
 
 ### 3. Launch JetBrains Rider ✅
 - **What to do**: Find Rider in your Start Menu/Applications folder and open it
@@ -35,7 +39,8 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: We need our coding workshop to start building
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of Rider launch screen*
+- **📸 SCREENSHOT**:
+![image](https://github.com/user-attachments/assets/b1336430-3f36-477c-b5d8-b718a0127b49)
 
 ### 4. Create New Project ✅
 - **What to do**: Click "New Solution" on the welcome screen
@@ -43,7 +48,7 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: This is like starting a new LEGO set with instructions
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of "New Solution" dialog*
+- **📸 SCREENSHOT**: ![Uploading image.png…]()
 
 ### 5. Set Up Console App ✅
 - **What to do**: Select "Console Application" → Name it "HelloCoderDojo" → Choose your repository folder as location → Select .NET 8.0 → Click Create
@@ -51,9 +56,73 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: Tells the computer what kind of program we're making
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of project template selection screen*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/3eb112a6-c162-49cd-bbcd-4b1f11d09d56)
 
-### 6. First Commit ✅
+### 6. Create a .gitignore File ✅
+- **What to do**: In your project folder, create a new file named ".gitignore"
+- **Where we're working**: Making a special list that tells Git which files to ignore
+- **Code snippet**:
+```
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+```
+- **Why it matters**: Keeps your project clean by not tracking files that your computer creates automatically
+- **Git command**: None yet
+- **📸 SCREENSHOT**: *Add screenshot of .gitignore file in text editor*
+
+### 7. First Commit ✅
 - **What to do**: Go back to GitHub Desktop → Review changes → Enter "Initial project setup" as commit message → Click "Commit to main"
 - **Where we're working**: Saving your project's starting point
 - **Code snippet**: None
@@ -61,7 +130,7 @@ HelloCoderDojo/
 - **Git command**: `git add . && git commit -m "Initial project setup"`
 - **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with initial commit*
 
-### 7. Explore Your Project ✅
+### 8. Explore Your Project ✅
 - **What to do**: In Rider, look at Solution Explorer (usually on the right side)
 - **Where we're working**: Looking at all the pieces of your project
 - **Code snippet**: None
@@ -69,7 +138,7 @@ HelloCoderDojo/
 - **Git command**: None
 - **📸 SCREENSHOT**: *Add screenshot of Solution Explorer showing project files*
 
-### 8. Find Program.cs ✅
+### 9. Find Program.cs ✅
 - **What to do**: Double-click on Program.cs in Solution Explorer
 - **Where we're working**: Opening the main file where we'll write our code
 - **Code snippet**: None
@@ -77,7 +146,7 @@ HelloCoderDojo/
 - **Git command**: None
 - **📸 SCREENSHOT**: *Add screenshot of Program.cs with default code*
 
-### 9. Write Welcome Messages ✅
+### 10. Write Welcome Messages ✅
 - **What to do**: Delete any existing code and type these three lines
 - **Where we're working**: Writing in the Program.cs file
 - **Code snippet**:
@@ -90,7 +159,7 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 - **Git command**: None yet
 - **📸 SCREENSHOT**: *Add screenshot of code editor with these three lines*
 
-### 10. Run Your Program ▶️
+### 11. Run Your Program ▶️
 - **What to do**: Click the green ▶️ button at the top or press Ctrl+F5
 - **Where we're working**: Testing your program to see if it works
 - **Code snippet**: None
@@ -98,7 +167,7 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 - **Git command**: None
 - **📸 SCREENSHOT**: *Add screenshot of console window showing output*
 
-### 11. Commit Your Changes ✅
+### 12. Commit Your Changes ✅
 - **What to do**: Go to GitHub Desktop → Review changes → Enter "Add welcome messages" as commit message → Click "Commit to main"
 - **Where we're working**: Saving your progress in the magical notebook
 - **Code snippet**: None
@@ -106,7 +175,7 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 - **Git command**: `git add Program.cs && git commit -m "Add welcome messages"`
 - **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with second commit*
 
-### 12. Make It Personal ✅
+### 13. Make It Personal ✅
 - **What to do**: Change the messages to include your information
 - **Where we're working**: Changing the words in Program.cs
 - **Code snippet**:
@@ -119,7 +188,7 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Git command**: None yet
 - **📸 SCREENSHOT**: *Add screenshot of personalized code*
 
-### 13. Run Again ▶️
+### 14. Run Again ▶️
 - **What to do**: Click the green ▶️ button again to see your changes
 - **Where we're working**: Testing your personalized program
 - **Code snippet**: None
@@ -127,7 +196,7 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Git command**: None
 - **📸 SCREENSHOT**: *Add screenshot of console output with personal info*
 
-### 14. Commit Personal Changes ✅
+### 15. Commit Personal Changes ✅
 - **What to do**: Go to GitHub Desktop → Review changes → Enter "Add personal information" as commit message → Click "Commit to main"
 - **Where we're working**: Saving your personalized version
 - **Code snippet**: None
@@ -135,7 +204,7 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Git command**: `git add Program.cs && git commit -m "Add personal information"`
 - **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with third commit*
 
-### 15. Push to GitHub ✅
+### 16. Push to GitHub ✅
 - **What to do**: In GitHub Desktop, click "Push origin" to upload all your commits
 - **Where we're working**: Sending your project to the internet cloud
 - **Code snippet**: None
