@@ -219,13 +219,16 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Code snippet**: None
 - **Why it matters**: Backing up your code so it's safe forever
 - **Git command**: `git push origin main`
-- **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop after pushing*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/805146c8-24cc-428d-bef9-7af1f54802ce)
+
 
 ## Run & Test ▶️
 - Click the green ▶️ button in Rider or press Ctrl+F5
 - You should see your messages appear in the console window
 - **Common Error**: If you see red underlines, check for missing semicolons (;) at the end of each line
-- **📸 SCREENSHOT**: *Add screenshot of running program or common error*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/3cacd169-29bf-4d79-a083-e3ba648c25fd)
+![image](https://github.com/user-attachments/assets/5359fd2b-d989-49a1-8b14-27ff67171dbc)
+
 
 ## Bonus Challenge 🔥
 Make your program ask for the user's name and say hello to them!
@@ -236,5 +239,6 @@ Console.Write("What is your name? ");
 string name = Console.ReadLine();
 Console.WriteLine($"Hello, {name}!");
 ```
-- **📸 SCREENSHOT**: *Add screenshot of bonus challenge code and output*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/fb3a9389-683f-4d88-b11b-cc4743a564d6)
+
 - **Git command**: `git add Program.cs && git commit -m "Add interactive name prompt"`
