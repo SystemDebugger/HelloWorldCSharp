@@ -48,7 +48,8 @@ HelloCoderDojo/
 - **Code snippet**: None
 - **Why it matters**: This is like starting a new LEGO set with instructions
 - **Git command**: None
-- **📸 SCREENSHOT**: ![Uploading image.png…]()
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/78ab7e24-c5ed-4a94-ad60-01ce7a46d0b1)
+
 
 ### 5. Set Up Console App ✅
 - **What to do**: Select "Console Application" → Name it "HelloCoderDojo" → Choose your repository folder as location → Select .NET 8.0 → Click Create
@@ -120,7 +121,8 @@ artifacts/
 ```
 - **Why it matters**: Keeps your project clean by not tracking files that your computer creates automatically
 - **Git command**: None yet
-- **📸 SCREENSHOT**: *Add screenshot of .gitignore file in text editor*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/6805e630-177c-4feb-9f16-f9dd736b363f)
+![image](https://github.com/user-attachments/assets/9ef9c78b-4c63-4ff5-8c32-b94e193ac923)
 
 ### 7. First Commit ✅
 - **What to do**: Go back to GitHub Desktop → Review changes → Enter "Initial project setup" as commit message → Click "Commit to main"
@@ -128,15 +130,17 @@ artifacts/
 - **Code snippet**: None
 - **Why it matters**: Like taking a snapshot of your LEGO creation so far
 - **Git command**: `git add . && git commit -m "Initial project setup"`
-- **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with initial commit*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/36fd29e6-1d84-460f-8b55-9495147e7efb)
+
 
 ### 8. Explore Your Project ✅
-- **What to do**: In Rider, look at Solution Explorer (usually on the right side)
+- **What to do**: In Rider, look at Solution Explorer (usually on the left side)
 - **Where we're working**: Looking at all the pieces of your project
 - **Code snippet**: None
 - **Why it matters**: Finding all the parts we need to build with
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of Solution Explorer showing project files*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/f75ecc15-7c89-4202-a72c-98b0319d9b54)
+
 
 ### 9. Find Program.cs ✅
 - **What to do**: Double-click on Program.cs in Solution Explorer
@@ -144,7 +148,8 @@ artifacts/
 - **Code snippet**: None
 - **Why it matters**: This is your blank canvas for writing instructions
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of Program.cs with default code*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/9e8e4cf8-c277-4d2c-b136-dd107527288a)
+
 
 ### 10. Write Welcome Messages ✅
 - **What to do**: Delete any existing code and type these three lines
@@ -157,7 +162,8 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 ```
 - **Why it matters**: Telling the computer what words to show on screen
 - **Git command**: None yet
-- **📸 SCREENSHOT**: *Add screenshot of code editor with these three lines*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/8dc4d9da-6f6e-4e7b-a8a2-7f2750b28ab4)
+
 
 ### 11. Run Your Program ▶️
 - **What to do**: Click the green ▶️ button at the top or press Ctrl+F5
@@ -165,7 +171,7 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 - **Code snippet**: None
 - **Why it matters**: See your program come to life!
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of console window showing output*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/c414e792-02c5-4d18-a927-6fe01143221d)
 
 ### 12. Commit Your Changes ✅
 - **What to do**: Go to GitHub Desktop → Review changes → Enter "Add welcome messages" as commit message → Click "Commit to main"
@@ -173,7 +179,8 @@ Console.WriteLine("Today is Saturday, June 14, 2025");
 - **Code snippet**: None
 - **Why it matters**: Taking another snapshot of your work
 - **Git command**: `git add Program.cs && git commit -m "Add welcome messages"`
-- **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with second commit*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/4f27cbb5-7047-4e1b-b2fa-be16bb1dad88)
+![image](https://github.com/user-attachments/assets/147b6d4d-f4d6-4671-9c5d-5087f347003d)
 
 ### 13. Make It Personal ✅
 - **What to do**: Change the messages to include your information
@@ -186,7 +193,8 @@ Console.WriteLine("I want to learn programming because [REASON]");
 ```
 - **Why it matters**: Making the computer say things about YOU
 - **Git command**: None yet
-- **📸 SCREENSHOT**: *Add screenshot of personalized code*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/ac99a01d-7af1-4b25-8542-a2bf62a8c199)
+
 
 ### 14. Run Again ▶️
 - **What to do**: Click the green ▶️ button again to see your changes
@@ -194,7 +202,8 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Code snippet**: None
 - **Why it matters**: Making sure your changes worked correctly
 - **Git command**: None
-- **📸 SCREENSHOT**: *Add screenshot of console output with personal info*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/c3f2ba65-d43b-4163-99d4-a71dd61cfe11)
+
 
 ### 15. Commit Personal Changes ✅
 - **What to do**: Go to GitHub Desktop → Review changes → Enter "Add personal information" as commit message → Click "Commit to main"
@@ -202,7 +211,8 @@ Console.WriteLine("I want to learn programming because [REASON]");
 - **Code snippet**: None
 - **Why it matters**: Taking a snapshot of your customized program
 - **Git command**: `git add Program.cs && git commit -m "Add personal information"`
-- **📸 SCREENSHOT**: *Add screenshot of GitHub Desktop with third commit*
+- **📸 SCREENSHOT**: ![image](https://github.com/user-attachments/assets/6395321e-6aae-4085-875e-d10e6f6e7ab8)
+
 
 ### 16. Push to GitHub ✅
 - **What to do**: In GitHub Desktop, click "Push origin" to upload all your commits
