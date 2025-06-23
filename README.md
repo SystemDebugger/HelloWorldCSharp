@@ -13,16 +13,15 @@ HelloCoderDojo/
 
 ## Step-by-Step Build Guide
 
-### 1. Create a GitHub Repository ✅
-- **What to do**: Open GitHub Desktop → Click "Create a New Repository" → Name it "HelloCoderDojo" → Choose a location on your computer → Click "Create Repository"
-- **Where we're working**: Creating a new special folder that will keep track of all your changes
+### 1. Fork and Clone the Repository ✅
+- **What to do**: Go to https://github.com/PhillyCoderDojo/HelloWorldCSharp → Click "Fork" button in top right → Then open GitHub Desktop → Click "Clone a repository from the Internet" → Select your fork → Choose a location on your computer → Click "Clone"
+- **Where we're working**: Making your own copy of our starter project, like getting your own LEGO set that matches the teacher's
 - **Code snippet**: None
-- **Why it matters**: Just like saving your game progress so you never lose it, even if you make a mistake
-- **Git command**: `git init HelloCoderDojo`
-- [**Documentation Link**](https://docs.github.com/en/desktop/overview/creating-your-first-repository-using-github-desktop)
+- **Why it matters**: This gives you your own version of the project to change without affecting the original, just like saving a game to your own memory card
+- **Git command**: `git clone https://github.com/YOUR-USERNAME/HelloWorldCSharp.git`
+- [**Documentation Link**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - **📸 SCREENSHOT**: 
-![image](https://github.com/user-attachments/assets/521a507d-04ee-46b5-a752-bcbf01fb1305)
-![image](https://github.com/user-attachments/assets/b69c9885-9f42-4585-88a4-8700bf5c7f48)
+
 
 
 ### 2. Open Repository Folder ✅
