@@ -22,6 +22,7 @@ HelloCoderDojo/
 - [**Documentation Link**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - **📸 SCREENSHOT**: 
 
+![image](https://github.com/user-attachments/assets/09281c21-225a-43f5-a52d-8cdaa2a06633)
 
 
 ### 2. Open Repository Folder ✅
