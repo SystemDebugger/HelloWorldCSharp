@@ -21,6 +21,7 @@ HelloCoderDojo/
 - **Git command**: `git clone https://github.com/YOUR-USERNAME/HelloWorldCSharp.git`
 - [**Documentation Link**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - **📸 SCREENSHOT**: 
+![image](https://github.com/user-attachments/assets/e2ce6bf6-8f47-42ca-95e6-11ae700e011a)
 
 ![image](https://github.com/user-attachments/assets/09281c21-225a-43f5-a52d-8cdaa2a06633)
 
